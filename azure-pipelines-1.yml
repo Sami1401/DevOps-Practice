@@ -21,4 +21,4 @@ steps:
 - task: PublishAllureReport@1
   displayName: 'Publish Allure Report'
   inputs:
-    reportDir: '/AllureReports-Group3'
+    reportDir: 'AllureReports-Group3'
