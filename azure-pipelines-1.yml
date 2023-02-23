@@ -17,3 +17,8 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- task: PublishAllureReport@1
+  displayName: 'Publish Allure Report'
+  inputs:
+    reportDir: '/AllureReports-Group3'
